@@ -63,6 +63,7 @@ public class ChatRecordUtil {
 	        String msg="";
 	        while((msg=br.readLine())!=null){
 	        	sb.append(msg);
+	        	System.out.println(msg);
 	        }
 	        return sb.toString();
         } catch (Exception e) {
